@@ -1,0 +1,30 @@
+body{
+    background-color: #1a1a2e;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    font-size: 80px;
+    text-align: center;
+    margin: 200px;
+}
+.DIVPortadas{
+    background-color: aliceblue;
+    height: 100vh;
+}
+.Portadas{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+}
+.Portadas > li > a> img{
+    padding: 15px;
+    width: 350px;
+    transition: transform 0.3s;
+}
+.Portadas > li > a > img:hover{
+    transform: scale(1.05);
+}

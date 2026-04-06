@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient(to top right, #1a1a2e, #2e2e42);
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+div{
+    background-color: #1a1a2e;
+    margin: 100px;
+    padding: 100px;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    padding-bottom: 50px;
+}
+h5{
+    color: aliceblue;
+    text-align: justify;
+}
+.FIN{
+    text-align: center;
+}
+.Autor{
+    text-align: right;
+}

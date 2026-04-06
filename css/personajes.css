@@ -1,0 +1,49 @@
+body{
+    background-color: #1a1a2e;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.ImagenesPersonajes{
+    background-color:aliceblue;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80PX;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.ListaPersonajes{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ListaPersonajes > li{
+    text-align: justify;
+}
+.ListaPersonajes > li > a > img{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    transition: transform 0.3s ;
+}
+.ListaPersonajes > li > h5{
+    text-align: center;
+}
+/*COMPORTAMIENTO*/
+.ListaPersonajes > li > a > img:hover{
+    transform: scale(1.05);
+}
