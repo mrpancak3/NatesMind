@@ -1,0 +1,14 @@
+.pagina01{
+    background-color: aliceblue;
+}
+h1{
+    color: aliceblue;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+}
+body{
+    background-color: #1a1a2e;
+}
